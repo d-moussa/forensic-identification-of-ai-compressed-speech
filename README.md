@@ -1,8 +1,22 @@
 # Unmasking Neural Codecs: Forensic Identification of AI-compressed Speech
 This repository contains the code for the paper 
 **Denise Moussa, Sandra Bergmann, Christian Riess. Unmasking Neural Codecs: Forensic Identification of AI-compressed Speech**.
-accepted at  [Interspeech 2024](https://interspeech2024.org/). The paper is available [here](https://faui1-files.cs.fau.de/public/publications/mmsec/2024-Moussa-Interspeech.pdf).
-If you use this repository for your research, please cite our work. 
+accepted at  [Interspeech 2024](https://interspeech2024.org/). The paper is available [here](https://www.isca-archive.org/interspeech_2024/moussa24_interspeech.pdf).
+If you use this repository for your research, please cite our work as:
+
+
+```
+@inproceedings{moussa24_interspeech,
+  title     = {Unmasking Neural Codecs: Forensic Identification of AI-compressed Speech},
+  author    = {Denise Moussa and Sandra Bergmann and Christian Riess},
+  year      = {2024},
+  booktitle = {Interspeech 2024},
+  pages     = {2260--2264},
+  doi       = {10.21437/Interspeech.2024-1652},
+  issn      = {2958-1796},
+}
+```
+
 
 
 ![image-architecture](imgs/freq_spectra.svg)
@@ -81,4 +95,5 @@ The script `utils/create_tables_from_csv.py` takes a result `.csv` file as input
 $ python utils/create_tables_from_csv.py path/to/input/csv/file
 ```
 Table template:
+
 ![img_1.png](imgs/img_1.png)
